@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 from sklearn.datasets import load_iris
 
-st.title("🌸 Iris Classifier (Using .pkl model)")
+st.title("🌸 Iris Classifier")
 
 # Load model đã lưu
 with open("iris_model.pkl", "rb") as f:
